@@ -19,7 +19,7 @@ mkdir -p $D_DOWNLOADS
 touch $D_SESSION/aria2.session
 
 ## trackers
-if [ $GEN_TRACKER == "true" ]; then
+if test "$GEN_TRACKER" = "true"; then
     trackers=`curl https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt`
     #trackers=${trackers// /,/}
     trackers=$(echo $trackers | sed 's/ /,/g')
