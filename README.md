@@ -11,7 +11,7 @@ Aria2's gid
 - `SECRET`
 RPC secret
 - `GEN_TRACKER`
-If true, will auto generate tracker from [ngosang/trackerslist](https://github.com/ngosang/trackerslist).
+If true, it will auto generate tracker from [ngosang/trackerslist](https://github.com/ngosang/trackerslist).
 
 ## Example
 
